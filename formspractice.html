@@ -7,11 +7,19 @@
 </head>
 <body>
     <h2>Example Form:</h2>
-    <form method="get" action="anotherone.html">
+    <form method="post" action="anotherone.html">
         <label for="useremail">Email:</label>
         <input type="email"   id="useremail" name="useremail" placeholder="youremail@email.com">
         <label for="userpass">Password:</label>
         <input type="Password" id="userpass" name="userpass" placeholder="Password">
+        <br>
+        <label for="mood">Mood:</label>
+        <select name="mood">
+            <option value="Happy"></option> 
+            <option value="Sad"></option> 
+            <option value="Angry"></option>
+        </select>
+
         <input type="submit" value="CONFIRM">
     </form>
 </body>
